@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #002b3d;
+  background-color: #efe8de;
+}
+
+.hero {
+  background: url("./img/sea.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  text-align: right;
+  display: block;
+  color: #002b3d;
+}
+
+.hero-inner {
+  display: inline-block;
+  margin-top: 40vh;
+  padding: 20px 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero h4 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 5px; 
+  border: 1px solid #002b3d;
+  color: #002b3d;
+  background-color: rgba(0, 43, 61, 0);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 43, 61, 1);
+  color: #efe8de;
+}
+
+main {
+  font-size: 14px;
+  display: block;
+  background-color: #002b3d;
+  color: #efe8de;
+}
+
+.text-row {
+  padding: 40px 20px 15px 20px;
+  background-color: #efe8de;
+  color: #002b3d;
+  text-align: center;
+}
+
+.text-row-2 {
+  display: block;
+  background-color: #efe8de;
+  color: #002b3d;
+}
+
+.text-row-2 h4 {
+  padding: 10px 0;
+}
+
+.card-text-row {
+  display: inline-block;
+  width: 49%;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.card-text-row-2-blue {
+  display: inline-block;
+  width: 33%;
+  text-align: start;
+  background-color: #002b3d;
+  color: #efe8de;
+  padding: 20px 10px;
+}
+
+.card-text-row-2-white {
+  display: inline-block;
+  width: 33%;
+  text-align: start;
+  background-color: #efe8de;
+  padding: 20px 10px;
+}
+
+.text-row-3 {
+  background-color: #efe8de;
+  color: #002b3d;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.text-row-3 p {
+  display: inline-block;
+  width: 49%;
+  margin-top: 30px;
+}
