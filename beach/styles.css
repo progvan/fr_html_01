@@ -6,16 +6,17 @@
 
 body {
   font-family: Arial, sans-serif;
-  color: #926239;
   background-color: white;
+  color: #926239;
 }
+
+
 
 .hero {
   background: url("./img/ракушка.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   text-align: center;
-  display: block;
   color: #926239;
 }
 
@@ -30,7 +31,7 @@ body {
   margin-bottom: 10px;
 }
 
-.hero h4 {
+.hero h2 {
   font-size: 16px;
   margin-bottom: 25px;
 }
@@ -48,14 +49,12 @@ body {
 
 .btn:hover {
   background-color: rgba(146, 98, 57, 0);
-  color: #926239;
+  color: inherit;
 }
 
 main {
   font-size: 14px;
   display: block;
-  background-color: #926239;
-  color: white;
 }
 
 .text-row {
@@ -64,26 +63,13 @@ main {
   line-height: 1.5;
 }
 
-.text-row-2 {
-  display: block;
-  padding: 15px 40px;
-  line-height: 1.5;
-  background-color: white;
-  color: #926239;
-}
-
-.card-white {
+.text-card {
   padding: 15px;
   display: inline-block;
   width: 33%;
-  background-color: white;
-  color: #926239;
 }
 
-.card-brown {
-  padding: 15px;
-  display: inline-block;
-  width: 33%;
+.brown {
   background-color: #926239;
   color: white;
 }
