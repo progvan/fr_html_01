@@ -11,11 +11,12 @@ body {
 }
 
 .hero {
-  background: url("./img/sea.jpg") no-repeat center center;
+  background-image: url("./img/sea.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   text-align: right;
-  color: #002b3d;
 }
 
 .hero-inner {
